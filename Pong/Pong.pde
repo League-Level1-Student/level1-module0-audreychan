@@ -26,7 +26,7 @@ void setup(){
   blip = minim.loadSample("PongBlip.wav", 128);
   score = minim.loadSample("PongScore.wav", 128);
   music = minim.loadFile("Music.mp3", 64);
-  music.play();
+  music.loop();
 }
 
 void draw(){
