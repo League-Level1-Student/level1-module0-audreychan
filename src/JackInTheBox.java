@@ -19,12 +19,13 @@ public void showButton() {
 	button.setText("Surprise!");
 	frame.add(button);
 	button.addActionListener(this);
+	//int pressed = 0;
 }
 	
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
-		
+		//pressed ++;
 	}
 
 }
